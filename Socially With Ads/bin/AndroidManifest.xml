@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bluebitapps.fbclient"
+    android:versionCode="22"
+    android:versionName="1.00022" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:name="com.bluebitapps.fbclientbase.FBClientApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:logo="@drawable/actionbar_icon_three_stripes"
+        android:theme="@style/ThemeHoloWithActionBarShadow" >
+         <receiver
+            android:name="com.bluebitapps.fbclientbase.broadcastreceivers.NetworkBroadcastReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:label="Network Status BroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.google.ads.AdActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenLayout|uiMode|screenSize|smallestScreenSize" >
+        </activity>
+        <activity
+            android:name="com.bluebitapps.fbclientbase.LaunchActivity"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.NoDisplay" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.bluebitapps.fbclientbase.theme.ColorPickerActivity"/>
+        <activity android:name="com.bluebitapps.fbclientbase.account.AccountActivity" />
+        <activity
+            android:name="com.bluebitapps.fbclientbase.MainActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+                <action android:name="android.intent.action.PICK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+                <data android:mimeType="video/*" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name="com.bluebitapps.fbclientbase.notifications.NotificationsAlertActivity"
+            android:launchMode="singleTop"
+            android:noHistory="true"
+            android:theme="@style/NotificationAlertStyle" />
+        <activity
+            android:name="com.bluebitapps.fbclientbase.photos.TouchImageViewActivity"
+            android:configChanges="orientation|keyboard|keyboardHidden|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <activity android:name="com.bluebitapps.fbclientbase.profile.ProfileActivity" />
+        <activity android:name="com.bluebitapps.fbclientbase.place.PlaceProfileActivity" />
+        <activity android:name="com.bluebitapps.fbclientbase.events.EventActivity" />
+        <activity android:name="com.bluebitapps.fbclientbase.newsfeed.NewsFeedFragmentPagerActivity" />
+        <activity android:name="com.bluebitapps.fbclientbase.notifications.NotificationsActivity" />
+        <activity android:name="com.bluebitapps.fbclientbase.groups.GroupActivity" />
+        <activity android:name="com.bluebitapps.fbclientbase.page.PageActivity" />
+        <activity android:name="com.bluebitapps.fbclientbase.subscriptions.SubscriptionActivity" />
+        <activity android:name="com.bluebitapps.fbclientbase.albums.AlbumsActivity" />
+        <activity android:name="com.bluebitapps.fbclientbase.friendrequests.FriendRequestActivity" />
+        <activity android:name="com.bluebitapps.fbclientbase.chat.ChatConversationActivity" />
+        <activity
+            android:name="com.bluebitapps.fbclientbase.settings.SettingsActivity"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name="com.bluebitapps.fbclientbase.photos.PhotosGridActivity" />
+        <activity android:name="com.bluebitapps.fbclientbase.photos.ImageGridActivity" />
+        <activity android:name="com.bluebitapps.fbclientbase.photos.ImagePagerActivity" />
+        <activity
+            android:name="com.bluebitapps.fbclientbase.newsfeed.NewsFeedItemActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name="com.bluebitapps.fbclientbase.user.UserActivity" />
+        <activity
+            android:name="com.bluebitapps.fbclientbase.checkins.CheckinLocationSelectionActivity"
+            android:noHistory="true" />
+        <activity
+            android:name="com.bluebitapps.fbclientbase.checkins.PostCheckinActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.bluebitapps.fbclientbase.photos.UploadPhotoActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.bluebitapps.fbclientbase.statusupdate.PostStatusUpdateActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name="com.bluebitapps.fbclientbase.settings.TextSettingsActivity"
+            android:excludeFromRecents="true"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="com.bluebitapps.fbclientbase.settings.NotificationsTypePreferenceActivity"
+            android:excludeFromRecents="true" />
+
+        <service android:name="com.bluebitapps.fbclientbase.events.EventInvitationResponseService" />
+        <service android:name="com.bluebitapps.fbclientbase.events.EventsInvitationService" />
+        <service android:name="com.bluebitapps.fbclientbase.events.RsvpEventService" />
+        <service android:name="com.bluebitapps.fbclientbase.notifications.NotificationsService" />
+        <service android:name="com.bluebitapps.fbclientbase.albums.AlbumsService" />
+        <service android:name="com.bluebitapps.fbclientbase.newsfeed.NewsFeedService" />
+        <service android:name="com.bluebitapps.fbclientbase.events.EventsService" />
+        <service android:name="com.bluebitapps.fbclientbase.groups.GroupsService" />
+        <service android:name="com.bluebitapps.fbclientbase.messages.MessagesService" />
+        <service android:name="com.bluebitapps.fbclientbase.friends.FriendsService" />
+        <service android:name="com.bluebitapps.fbclientbase.checkins.CheckinsService" />
+        <service android:name="com.bluebitapps.fbclientbase.actions.LikeService" />
+        <service android:name="com.bluebitapps.fbclientbase.events.BirthdaysService" />
+        <service android:name="com.bluebitapps.fbclientbase.profile.ProfileService" />
+        <service android:name="com.bluebitapps.fbclientbase.likes.LikesService" />
+        <service android:name="com.bluebitapps.fbclientbase.photos.UploadPhotoService" />
+        <service android:name="com.bluebitapps.fbclientbase.statusupdate.PostStatusUpdateService" />
+        <service android:name="com.bluebitapps.fbclientbase.actions.CommentService" />
+        <service android:name="com.bluebitapps.fbclientbase.checkins.PostCheckinService" />
+        <service android:name="com.bluebitapps.fbclientbase.page.PageService" />
+        <service android:name="com.bluebitapps.fbclientbase.place.PlaceService" />
+        <service android:name="com.bluebitapps.fbclientbase.notifications.MarkAsReadService" />
+    </application>
+
+</manifest>
