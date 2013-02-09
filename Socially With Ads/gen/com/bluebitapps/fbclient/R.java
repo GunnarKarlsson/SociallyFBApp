@@ -743,8 +743,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int upload_ok=0x7f020121;
     }
     public static final class id {
-        public static final int CameraMenuItem=0x7f060100;
-        public static final int GalleryMenuItem=0x7f060101;
+        public static final int CameraMenuItem=0x7f060102;
+        public static final int GalleryMenuItem=0x7f0600ff;
         public static final int aboutTextView=0x7f060009;
         public static final int accountListHeader=0x7f060010;
         public static final int accountListView=0x7f060011;
@@ -926,7 +926,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int placeLabel=0x7f060034;
         public static final int placeName=0x7f060035;
         public static final int postButton=0x7f0600d9;
-        public static final int postCheckinMenuItem=0x7f0600ff;
+        public static final int postCheckinMenuItem=0x7f060101;
         public static final int postMenuItem=0x7f0600fd;
         public static final int postMessage=0x7f0600d8;
         public static final int postStatusMenuItem=0x7f0600fe;
@@ -984,7 +984,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int talkingAbout=0x7f060070;
         public static final int talkingAboutLabel=0x7f060071;
         public static final int talkingAboutValue=0x7f060072;
-        public static final int textStyleMenuItem=0x7f060102;
+        public static final int textStyleMenuItem=0x7f060100;
         public static final int themeActionBarColor=0x7f0600f4;
         public static final int themeAvailability=0x7f0600f7;
         public static final int themeBackground=0x7f0600f3;
@@ -1116,14 +1116,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int upload_photo=0x7f030067;
     }
     public static final class menu {
-        public static final int actionbar_with_multiple_menu_items=0x7f0d0000;
-        public static final int actionbar_with_only_refresh_menu_item=0x7f0d0001;
-        public static final int albumsmenu=0x7f0d0002;
-        public static final int groupsmenu=0x7f0d0003;
-        public static final int imagepagermenu=0x7f0d0004;
-        public static final int list_select_mark_as_read=0x7f0d0005;
-        public static final int menu=0x7f0d0006;
-        public static final int postcheckinmenu=0x7f0d0007;
+        public static final int actionbar_for_kindle=0x7f0d0000;
+        public static final int actionbar_with_multiple_menu_items=0x7f0d0001;
+        public static final int actionbar_with_only_refresh_menu_item=0x7f0d0002;
+        public static final int albumsmenu=0x7f0d0003;
+        public static final int groupsmenu=0x7f0d0004;
+        public static final int imagepagermenu=0x7f0d0005;
+        public static final int list_select_mark_as_read=0x7f0d0006;
+        public static final int menu=0x7f0d0007;
+        public static final int postcheckinmenu=0x7f0d0008;
     }
     public static final class string {
         public static final int INTENT_THEME_KEY=0x7f0b004a;

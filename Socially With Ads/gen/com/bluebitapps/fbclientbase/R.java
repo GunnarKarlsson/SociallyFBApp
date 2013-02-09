@@ -21,14 +21,15 @@ public final class R {
 		public static final int slide_in_right = 0x7f040005;
 	}
 	public static final class menu {
-		public static final int actionbar_with_only_refresh_menu_item = 0x7f0d0001;
-		public static final int albumsmenu = 0x7f0d0002;
-		public static final int imagepagermenu = 0x7f0d0004;
-		public static final int menu = 0x7f0d0006;
-		public static final int postcheckinmenu = 0x7f0d0007;
-		public static final int actionbar_with_multiple_menu_items = 0x7f0d0000;
-		public static final int list_select_mark_as_read = 0x7f0d0005;
-		public static final int groupsmenu = 0x7f0d0003;
+		public static final int actionbar_with_only_refresh_menu_item = 0x7f0d0002;
+		public static final int albumsmenu = 0x7f0d0003;
+		public static final int actionbar_for_kindle = 0x7f0d0000;
+		public static final int imagepagermenu = 0x7f0d0005;
+		public static final int menu = 0x7f0d0007;
+		public static final int postcheckinmenu = 0x7f0d0008;
+		public static final int actionbar_with_multiple_menu_items = 0x7f0d0001;
+		public static final int list_select_mark_as_read = 0x7f0d0006;
+		public static final int groupsmenu = 0x7f0d0004;
 	}
 	public static final class drawable {
 		public static final int button_icon_emoticon_wmile = 0x7f020014;
@@ -527,11 +528,11 @@ public final class R {
 		public static final int birthday = 0x7f06007d;
 		public static final int searchButton = 0x7f0600e2;
 		public static final int progressWheel = 0x7f0600af;
-		public static final int textStyleMenuItem = 0x7f060102;
+		public static final int textStyleMenuItem = 0x7f060100;
 		public static final int ownerNameValue = 0x7f060088;
 		public static final int likesCountLabel = 0x7f06006e;
 		public static final int newsFeedItemCommentIcon = 0x7f06004a;
-		public static final int CameraMenuItem = 0x7f060100;
+		public static final int CameraMenuItem = 0x7f060102;
 		public static final int postButton = 0x7f0600d9;
 		public static final int scrollview = 0x7f060008;
 		public static final int groupUnread = 0x7f0600ad;
@@ -544,7 +545,7 @@ public final class R {
 		public static final int newsFeedItemLikeCount = 0x7f060049;
 		public static final int icon = 0x7f060012;
 		public static final int photoSection = 0x7f0600c4;
-		public static final int GalleryMenuItem = 0x7f060101;
+		public static final int GalleryMenuItem = 0x7f0600ff;
 		public static final int countryLabel = 0x7f06006b;
 		public static final int newsFeedItemMessage = 0x7f060040;
 		public static final int clearable_button_clear = 0x7f060038;
@@ -652,7 +653,7 @@ public final class R {
 		public static final int row_icon = 0x7f0600e8;
 		public static final int buttonTable = 0x7f0600cc;
 		public static final int birthdayValue = 0x7f06007f;
-		public static final int postCheckinMenuItem = 0x7f0600ff;
+		public static final int postCheckinMenuItem = 0x7f060101;
 		public static final int galleryButton = 0x7f06004d;
 		public static final int editText = 0x7f0600da;
 		public static final int commentDataWrapper = 0x7f060018;
