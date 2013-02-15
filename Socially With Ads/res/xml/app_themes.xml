@@ -12,6 +12,15 @@
         menucolor="someMenuColor" references R.color.someMenuColor
     </apptheme>
     -->
+        <apptheme
+        name="theme_leather_black"
+        actionbarcolor="blackActionBarColor"
+        background="theme_leather_black_background"
+        displayname="Black Leather"
+        icon="theme_leather_black_image"
+        menucolor="blackMenuColor" >
+    </apptheme>
+    
     <apptheme
         name="theme_purple_rain"
         actionbarcolor="leopardActionBarColor"
