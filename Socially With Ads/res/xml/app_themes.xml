@@ -10,9 +10,9 @@
         background="someColor" references R.color.someColor OR R.drawable.someColor
         icon="theme_something_image" references R.drawable.theme_something_image
         menucolor="someMenuColor" references R.color.someMenuColor
-    </apptheme>
+    </apptheme>
     -->
-        <apptheme
+    <apptheme
         name="theme_leather_black"
         actionbarcolor="blackActionBarColor"
         background="theme_leather_black_background"
@@ -20,7 +20,6 @@
         icon="theme_leather_black_image"
         menucolor="blackMenuColor" >
     </apptheme>
-    
     <apptheme
         name="theme_purple_rain"
         actionbarcolor="leopardActionBarColor"
@@ -537,5 +536,607 @@
         displayname="Paven"
         icon="theme_paven_background"
         menucolor="graphMenuColor" />
+    <apptheme
+        name="new theme 10001"
+        actionbarcolor="ActionBarColor10001"
+        background="theme_10001_background"
+        displayname="Theme 10001"
+        icon="theme_10001_background"
+        menucolor="MenuColor10001" />
+    <apptheme
+        name="new theme 10002"
+        actionbarcolor="ActionBarColor10002"
+        background="theme_10002_background"
+        displayname="Theme 10002"
+        icon="theme_10002_background"
+        menucolor="MenuColor10002" />
+    <apptheme
+        name="new theme 10003"
+        actionbarcolor="ActionBarColor10003"
+        background="theme_10003_background"
+        displayname="Theme 10003"
+        icon="theme_10003_background"
+        menucolor="MenuColor10003" />
+    <apptheme
+        name="new theme 10004"
+        actionbarcolor="ActionBarColor10004"
+        background="theme_10004_background"
+        displayname="Theme 10004"
+        icon="theme_10004_background"
+        menucolor="MenuColor10004" />
+    <apptheme
+        name="new theme 10006"
+        actionbarcolor="ActionBarColor10006"
+        background="theme_10006_background"
+        displayname="Theme 10006"
+        icon="theme_10006_background"
+        menucolor="MenuColor10006" />
+    <apptheme
+        name="new theme 10007"
+        actionbarcolor="ActionBarColor10007"
+        background="theme_10007_background"
+        displayname="Theme 10007"
+        icon="theme_10007_background"
+        menucolor="MenuColor10007" />
+    <apptheme
+        name="new theme 10008"
+        actionbarcolor="ActionBarColor10008"
+        background="theme_10008_background"
+        displayname="Theme 10008"
+        icon="theme_10008_background"
+        menucolor="MenuColor10008" />
+    <apptheme
+        name="new theme 10009"
+        actionbarcolor="ActionBarColor10009"
+        background="theme_10009_background"
+        displayname="Theme 10009"
+        icon="theme_10009_background"
+        menucolor="MenuColor10009" />
+    <apptheme
+        name="new theme 10010"
+        actionbarcolor="ActionBarColor10010"
+        background="theme_10010_background"
+        displayname="Theme 10010"
+        icon="theme_10010_background"
+        menucolor="MenuColor10010" />
+    <apptheme
+        name="new theme 10011"
+        actionbarcolor="ActionBarColor10011"
+        background="theme_10011_background"
+        displayname="Theme 10011"
+        icon="theme_10011_background"
+        menucolor="MenuColor10011" />
+    <apptheme
+        name="new theme 10012"
+        actionbarcolor="ActionBarColor10012"
+        background="theme_10012_background"
+        displayname="Theme 10012"
+        icon="theme_10012_background"
+        menucolor="MenuColor10012" />
+    <apptheme
+        name="new theme 10013"
+        actionbarcolor="ActionBarColor10013"
+        background="theme_10013_background"
+        displayname="Theme 10013"
+        icon="theme_10013_background"
+        menucolor="MenuColor10013" />
+    <apptheme
+        name="new theme 10014"
+        actionbarcolor="ActionBarColor10014"
+        background="theme_10014_background"
+        displayname="Theme 10014"
+        icon="theme_10014_background"
+        menucolor="MenuColor10014" />
+    <apptheme
+        name="new theme 10015"
+        actionbarcolor="ActionBarColor10015"
+        background="theme_10015_background"
+        displayname="Theme 10015"
+        icon="theme_10015_background"
+        menucolor="MenuColor10015" />
+    <apptheme
+        name="new theme 10016"
+        actionbarcolor="ActionBarColor10016"
+        background="theme_10016_background"
+        displayname="Theme 10016"
+        icon="theme_10016_background"
+        menucolor="MenuColor10016" />
+    <apptheme
+        name="new theme 10017"
+        actionbarcolor="ActionBarColor10017"
+        background="theme_10017_background"
+        displayname="Theme 10017"
+        icon="theme_10017_background"
+        menucolor="MenuColor10017" />
+    <apptheme
+        name="new theme 10018"
+        actionbarcolor="ActionBarColor10018"
+        background="theme_10018_background"
+        displayname="Theme 10018"
+        icon="theme_10018_background"
+        menucolor="MenuColor10018" />
+    <apptheme
+        name="new theme 10019"
+        actionbarcolor="ActionBarColor10019"
+        background="theme_10019_background"
+        displayname="Theme 10019"
+        icon="theme_10019_background"
+        menucolor="MenuColor10019" />
+    <apptheme
+        name="new theme 10020"
+        actionbarcolor="ActionBarColor10020"
+        background="theme_10020_background"
+        displayname="Theme 10020"
+        icon="theme_10020_background"
+        menucolor="MenuColor10020" />
+    <apptheme
+        name="new theme 10021"
+        actionbarcolor="ActionBarColor10021"
+        background="theme_10021_background"
+        displayname="Theme 10021"
+        icon="theme_10021_background"
+        menucolor="MenuColor10021" />
+    <apptheme
+        name="new theme 10022"
+        actionbarcolor="ActionBarColor10022"
+        background="theme_10022_background"
+        displayname="Theme 10022"
+        icon="theme_10022_background"
+        menucolor="MenuColor10022" />
+    <apptheme
+        name="new theme 10023"
+        actionbarcolor="ActionBarColor10023"
+        background="theme_10023_background"
+        displayname="Theme 10023"
+        icon="theme_10023_background"
+        menucolor="MenuColor10023" />
+    <apptheme
+        name="new theme 10024"
+        actionbarcolor="ActionBarColor10024"
+        background="theme_10024_background"
+        displayname="Theme 10024"
+        icon="theme_10024_background"
+        menucolor="MenuColor10024" />
+    <apptheme
+        name="new theme 10025"
+        actionbarcolor="ActionBarColor10025"
+        background="theme_10025_background"
+        displayname="Theme 10025"
+        icon="theme_10025_background"
+        menucolor="MenuColor10025" />
+    <apptheme
+        name="new theme 10026"
+        actionbarcolor="ActionBarColor10026"
+        background="theme_10026_background"
+        displayname="Theme 10026"
+        icon="theme_10026_background"
+        menucolor="MenuColor10026" />
+    <apptheme
+        name="new theme 10027"
+        actionbarcolor="ActionBarColor10027"
+        background="theme_10027_background"
+        displayname="Theme 10027"
+        icon="theme_10027_background"
+        menucolor="MenuColor10027" />
+    <apptheme
+        name="new theme 10028"
+        actionbarcolor="ActionBarColor10028"
+        background="theme_10028_background"
+        displayname="Theme 10028"
+        icon="theme_10028_background"
+        menucolor="MenuColor10028" />
+    <apptheme
+        name="new theme 10029"
+        actionbarcolor="ActionBarColor10029"
+        background="theme_10029_background"
+        displayname="Theme 10029"
+        icon="theme_10029_background"
+        menucolor="MenuColor10029" />
+    <apptheme
+        name="new theme 10030"
+        actionbarcolor="ActionBarColor10030"
+        background="theme_10030_background"
+        displayname="Theme 10030"
+        icon="theme_10030_background"
+        menucolor="MenuColor10030" />
+    <apptheme
+        name="new theme 10031"
+        actionbarcolor="ActionBarColor10031"
+        background="theme_10031_background"
+        displayname="Theme 10031"
+        icon="theme_10031_background"
+        menucolor="MenuColor10031" />
+    <apptheme
+        name="new theme 10032"
+        actionbarcolor="ActionBarColor10032"
+        background="theme_10032_background"
+        displayname="Theme 10032"
+        icon="theme_10032_background"
+        menucolor="MenuColor10032" />
+    <apptheme
+        name="new theme 10033"
+        actionbarcolor="ActionBarColor10033"
+        background="theme_10033_background"
+        displayname="Theme 10033"
+        icon="theme_10033_background"
+        menucolor="MenuColor10033" />
+    <apptheme
+        name="new theme 10034"
+        actionbarcolor="ActionBarColor10034"
+        background="theme_10034_background"
+        displayname="Theme 10034"
+        icon="theme_10034_background"
+        menucolor="MenuColor10034" />
+    <apptheme
+        name="new theme 10035"
+        actionbarcolor="ActionBarColor10035"
+        background="theme_10035_background"
+        displayname="Theme 10035"
+        icon="theme_10035_background"
+        menucolor="MenuColor10035" />
+    <apptheme
+        name="new theme 10036"
+        actionbarcolor="ActionBarColor10036"
+        background="theme_10036_background"
+        displayname="Theme 10036"
+        icon="theme_10036_background"
+        menucolor="MenuColor10036" />
+    <apptheme
+        name="new theme 10037"
+        actionbarcolor="ActionBarColor10037"
+        background="theme_10037_background"
+        displayname="Theme 10037"
+        icon="theme_10037_background"
+        menucolor="MenuColor10037" />
+    <apptheme
+        name="new theme 10038"
+        actionbarcolor="ActionBarColor10038"
+        background="theme_10038_background"
+        displayname="Theme 10038"
+        icon="theme_10038_background"
+        menucolor="MenuColor10038" />
+    <apptheme
+        name="new theme 10039"
+        actionbarcolor="ActionBarColor10039"
+        background="theme_10039_background"
+        displayname="Theme 10039"
+        icon="theme_10039_background"
+        menucolor="MenuColor10039" />
+    <apptheme
+        name="new theme 10040"
+        actionbarcolor="ActionBarColor10040"
+        background="theme_10040_background"
+        displayname="Theme 10040"
+        icon="theme_10040_background"
+        menucolor="MenuColor10040" />
+    <apptheme
+        name="new theme 10041"
+        actionbarcolor="ActionBarColor10041"
+        background="theme_10041_background"
+        displayname="Theme 10041"
+        icon="theme_10041_background"
+        menucolor="MenuColor10041" />
+    <apptheme
+        name="new theme 10042"
+        actionbarcolor="ActionBarColor10042"
+        background="theme_10042_background"
+        displayname="Theme 10042"
+        icon="theme_10042_background"
+        menucolor="MenuColor10042" />
+    <apptheme
+        name="new theme 10043"
+        actionbarcolor="ActionBarColor10043"
+        background="theme_10043_background"
+        displayname="Theme 10043"
+        icon="theme_10043_background"
+        menucolor="MenuColor10043" />
+    <apptheme
+        name="new theme 10044"
+        actionbarcolor="ActionBarColor10044"
+        background="theme_10044_background"
+        displayname="Theme 10044"
+        icon="theme_10044_background"
+        menucolor="MenuColor10044" />
+    <apptheme
+        name="new theme 10045"
+        actionbarcolor="ActionBarColor10045"
+        background="theme_10045_background"
+        displayname="Theme 10045"
+        icon="theme_10045_background"
+        menucolor="MenuColor10045" />
+    <apptheme
+        name="new theme 10046"
+        actionbarcolor="ActionBarColor10046"
+        background="theme_10046_background"
+        displayname="Theme 10046"
+        icon="theme_10046_background"
+        menucolor="MenuColor10046" />
+    <apptheme
+        name="new theme 10047"
+        actionbarcolor="ActionBarColor10047"
+        background="theme_10047_background"
+        displayname="Theme 10047"
+        icon="theme_10047_background"
+        menucolor="MenuColor10047" />
+    <apptheme
+        name="new theme 10048"
+        actionbarcolor="ActionBarColor10048"
+        background="theme_10048_background"
+        displayname="Theme 10048"
+        icon="theme_10048_background"
+        menucolor="MenuColor10048" />
+    <apptheme
+        name="new theme 10049"
+        actionbarcolor="ActionBarColor10049"
+        background="theme_10049_background"
+        displayname="Theme 10049"
+        icon="theme_10049_background"
+        menucolor="MenuColor10049" />
+    <apptheme
+        name="new theme 10050"
+        actionbarcolor="ActionBarColor10050"
+        background="theme_10050_background"
+        displayname="Theme 10050"
+        icon="theme_10050_background"
+        menucolor="MenuColor10050" />
+    <apptheme
+        name="new theme 10051"
+        actionbarcolor="ActionBarColor10051"
+        background="theme_10051_background"
+        displayname="Theme 10051"
+        icon="theme_10051_background"
+        menucolor="MenuColor10051" />
+    <apptheme
+        name="new theme 10052"
+        actionbarcolor="ActionBarColor10052"
+        background="theme_10052_background"
+        displayname="Theme 10052"
+        icon="theme_10052_background"
+        menucolor="MenuColor10052" />
+    <apptheme
+        name="new theme 10053"
+        actionbarcolor="ActionBarColor10053"
+        background="theme_10053_background"
+        displayname="Theme 10053"
+        icon="theme_10053_background"
+        menucolor="MenuColor10053" />
+    <apptheme
+        name="new theme 10054"
+        actionbarcolor="ActionBarColor10054"
+        background="theme_10054_background"
+        displayname="Theme 10054"
+        icon="theme_10054_background"
+        menucolor="MenuColor10054" />
+    <apptheme
+        name="new theme 10055"
+        actionbarcolor="ActionBarColor10055"
+        background="theme_10055_background"
+        displayname="Theme 10055"
+        icon="theme_10055_background"
+        menucolor="MenuColor10055" />
+    <apptheme
+        name="new theme 10056"
+        actionbarcolor="ActionBarColor10056"
+        background="theme_10056_background"
+        displayname="Theme 10056"
+        icon="theme_10056_background"
+        menucolor="MenuColor10056" />
+    <apptheme
+        name="new theme 10057"
+        actionbarcolor="ActionBarColor10057"
+        background="theme_10057_background"
+        displayname="Theme 10057"
+        icon="theme_10057_background"
+        menucolor="MenuColor10057" />
+    <apptheme
+        name="new theme 10058"
+        actionbarcolor="ActionBarColor10058"
+        background="theme_10058_background"
+        displayname="Theme 10058"
+        icon="theme_10058_background"
+        menucolor="MenuColor10058" />
+    <apptheme
+        name="new theme 10059"
+        actionbarcolor="ActionBarColor10059"
+        background="theme_10059_background"
+        displayname="Theme 10059"
+        icon="theme_10059_background"
+        menucolor="MenuColor10059" />
+    <apptheme
+        name="new theme 10060"
+        actionbarcolor="ActionBarColor10060"
+        background="theme_10060_background"
+        displayname="Theme 10060"
+        icon="theme_10060_background"
+        menucolor="MenuColor10060" />
+    <apptheme
+        name="new theme 10061"
+        actionbarcolor="ActionBarColor10061"
+        background="theme_10061_background"
+        displayname="Theme 10061"
+        icon="theme_10061_background"
+        menucolor="MenuColor10061" />
+    <apptheme
+        name="new theme 10062"
+        actionbarcolor="ActionBarColor10062"
+        background="theme_10062_background"
+        displayname="Theme 10062"
+        icon="theme_10062_background"
+        menucolor="MenuColor10062" />
+    <apptheme
+        name="new theme 10063"
+        actionbarcolor="ActionBarColor10063"
+        background="theme_10063_background"
+        displayname="Theme 10063"
+        icon="theme_10063_background"
+        menucolor="MenuColor10063" />
+    <apptheme
+        name="new theme 10064"
+        actionbarcolor="ActionBarColor10064"
+        background="theme_10064_background"
+        displayname="Theme 10064"
+        icon="theme_10064_background"
+        menucolor="MenuColor10064" />
+    <apptheme
+        name="new theme 10065"
+        actionbarcolor="ActionBarColor10065"
+        background="theme_10065_background"
+        displayname="Theme 10065"
+        icon="theme_10065_background"
+        menucolor="MenuColor10065" />
+    <apptheme
+        name="new theme 10066"
+        actionbarcolor="ActionBarColor10066"
+        background="theme_10066_background"
+        displayname="Theme 10066"
+        icon="theme_10066_background"
+        menucolor="MenuColor10066" />
+    <apptheme
+        name="new theme 10067"
+        actionbarcolor="ActionBarColor10067"
+        background="theme_10067_background"
+        displayname="Theme 10067"
+        icon="theme_10067_background"
+        menucolor="MenuColor10067" />
+    <apptheme
+        name="new theme 10068"
+        actionbarcolor="ActionBarColor10068"
+        background="theme_10068_background"
+        displayname="Theme 10068"
+        icon="theme_10068_background"
+        menucolor="MenuColor10068" />
+    <apptheme
+        name="new theme 10069"
+        actionbarcolor="ActionBarColor10069"
+        background="theme_10069_background"
+        displayname="Theme 10069"
+        icon="theme_10069_background"
+        menucolor="MenuColor10069" />
+    <apptheme
+        name="new theme 10070"
+        actionbarcolor="ActionBarColor10070"
+        background="theme_10070_background"
+        displayname="Theme 10070"
+        icon="theme_10070_background"
+        menucolor="MenuColor10070" />
+    <apptheme
+        name="new theme 10071"
+        actionbarcolor="ActionBarColor10071"
+        background="theme_10071_background"
+        displayname="Theme 10071"
+        icon="theme_10071_background"
+        menucolor="MenuColor10071" />
+    <apptheme
+        name="new theme 10072"
+        actionbarcolor="ActionBarColor10072"
+        background="theme_10072_background"
+        displayname="Theme 10072"
+        icon="theme_10072_background"
+        menucolor="MenuColor10072" />
+    <apptheme
+        name="new theme 10073"
+        actionbarcolor="ActionBarColor10073"
+        background="theme_10073_background"
+        displayname="Theme 10073"
+        icon="theme_10073_background"
+        menucolor="MenuColor10073" />
+    <apptheme
+        name="new theme 10074"
+        actionbarcolor="ActionBarColor10074"
+        background="theme_10074_background"
+        displayname="Theme 10074"
+        icon="theme_10074_background"
+        menucolor="MenuColor10074" />
+    <apptheme
+        name="new theme 10075"
+        actionbarcolor="ActionBarColor10075"
+        background="theme_10075_background"
+        displayname="Theme 10075"
+        icon="theme_10075_background"
+        menucolor="MenuColor10075" />
+    <apptheme
+        name="new theme 10076"
+        actionbarcolor="ActionBarColor10076"
+        background="theme_10076_background"
+        displayname="Theme 10076"
+        icon="theme_10076_background"
+        menucolor="MenuColor10076" />
+    <apptheme
+        name="new theme 10077"
+        actionbarcolor="ActionBarColor10077"
+        background="theme_10077_background"
+        displayname="Theme 10077"
+        icon="theme_10077_background"
+        menucolor="MenuColor10077" />
+    <apptheme
+        name="new theme 10078"
+        actionbarcolor="ActionBarColor10078"
+        background="theme_10078_background"
+        displayname="Theme 10078"
+        icon="theme_10078_background"
+        menucolor="MenuColor10078" />
+    <apptheme
+        name="new theme 10079"
+        actionbarcolor="ActionBarColor10079"
+        background="theme_10079_background"
+        displayname="Theme 10079"
+        icon="theme_10079_background"
+        menucolor="MenuColor10079" />
+    <apptheme
+        name="new theme 10080"
+        actionbarcolor="ActionBarColor10080"
+        background="theme_10080_background"
+        displayname="Theme 10080"
+        icon="theme_10080_background"
+        menucolor="MenuColor10080" />
+    <apptheme
+        name="new theme 10081"
+        actionbarcolor="ActionBarColor10081"
+        background="theme_10081_background"
+        displayname="Theme 10081"
+        icon="theme_10081_background"
+        menucolor="MenuColor10081" />
+    <apptheme
+        name="new theme 10082"
+        actionbarcolor="ActionBarColor10082"
+        background="theme_10082_background"
+        displayname="Theme 10082"
+        icon="theme_10082_background"
+        menucolor="MenuColor10082" />
+    <apptheme
+        name="new theme 10083"
+        actionbarcolor="ActionBarColor10083"
+        background="theme_10083_background"
+        displayname="Theme 10083"
+        icon="theme_10083_background"
+        menucolor="MenuColor10083" />
+    <apptheme
+        name="new theme 10084"
+        actionbarcolor="ActionBarColor10084"
+        background="theme_10084_background"
+        displayname="Theme 10084"
+        icon="theme_10084_background"
+        menucolor="MenuColor10084" />
+    <apptheme
+        name="new theme 10085"
+        actionbarcolor="ActionBarColor10085"
+        background="theme_10085_background"
+        displayname="Theme 10085"
+        icon="theme_10085_background"
+        menucolor="MenuColor10085" />
+    <apptheme
+        name="new theme 10086"
+        actionbarcolor="ActionBarColor10086"
+        background="theme_10086_background"
+        displayname="Theme 10086"
+        icon="theme_10086_background"
+        menucolor="MenuColor10086" />
+    <apptheme
+        name="new theme 10087"
+        actionbarcolor="ActionBarColor10087"
+        background="theme_10087_background"
+        displayname="Theme 10087"
+        icon="theme_10087_background"
+        menucolor="MenuColor10087" />
 
 </appthemes>

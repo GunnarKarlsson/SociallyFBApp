@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="ActionBarColor10001">#bc727b</color>
+    <color name="MenuColor10001">#816249</color>
+    <color name="ActionBarColor10002">#5c3c8e</color>
+    <color name="MenuColor10002">#64603e</color>
+    <color name="ActionBarColor10003">#133495</color>
+    <color name="MenuColor10003">#951351</color>
+    <color name="ActionBarColor10004">#8298a7</color>
+    <color name="MenuColor10004">#75664b</color>
+    <color name="ActionBarColor10005">#000000</color>
+    <color name="MenuColor10005">#ff0000</color>
+    <color name="ActionBarColor10006">#ab2626</color>
+    <color name="MenuColor10006">#44437e</color>
+    <color name="ActionBarColor10007">#847b9f</color>
+    <color name="MenuColor10007">#605e53</color>
+    <color name="ActionBarColor10008">#2f412e</color>
+    <color name="MenuColor10008">#5c568e</color>
+    <color name="ActionBarColor10009">#5676d5</color>
+    <color name="MenuColor10009">#4058a0</color>
+    <color name="ActionBarColor10010">#aabb82</color>
+    <color name="MenuColor10010">#808062</color>
+<color name="ActionBarColor10011">#5c77e6</color>
+<color name="MenuColor10011">#e75ea2</color>
+<color name="ActionBarColor10012">#794b82</color>
+<color name="MenuColor10012">#8f864b</color>
+<color name="ActionBarColor10013">#67c752</color>
+<color name="MenuColor10013">#3c742d</color>
+<color name="ActionBarColor10014">#6cc9d6</color>
+<color name="MenuColor10014">#d6716c</color>
+
+<color name="ActionBarColor10015">#3B842a</color>
+<color name="MenuColor10015">#712a84</color>
+
+<color name="ActionBarColor10016">#f697e9</color>
+<color name="MenuColor10016">#719779</color>
+
+<color name="ActionBarColor10017">#3b5a64</color>
+<color name="MenuColor10017">#607b83</color>
+
+<color name="ActionBarColor10018">#9e7bc4</color>
+<color name="MenuColor10018">#352856</color>
+
+<color name="ActionBarColor10019">#cb91a5</color>
+<color name="MenuColor10019">#3b3e8b</color>
+
+<color name="ActionBarColor10020">#77bcdb</color>
+<color name="MenuColor10020">#e191b2</color>
+<color name="ActionBarColor10021">#74b674</color>
+<color name="MenuColor10021">#355f34</color>
+
+<color name="ActionBarColor10022">#939393</color>
+<color name="MenuColor10022">#473f3f</color>
+
+<color name="ActionBarColor10023">#c45656</color>
+<color name="MenuColor10023">#314991</color>
+
+<color name="ActionBarColor10024">#404040</color>
+<color name="MenuColor10024">#505050</color>
+
+<color name="ActionBarColor10025">#ffaef3</color>
+<color name="MenuColor10025">#9d6194</color>
+
+<color name="ActionBarColor10026">#d66994</color>
+<color name="MenuColor10026">#d6c969</color>
+
+<color name="ActionBarColor10027">#272222</color>
+<color name="MenuColor10027">#5a3333</color>
+
+<color name="ActionBarColor10028">#77bfba</color>
+<color name="MenuColor10028">#887dbf</color>
+<color name="ActionBarColor10029">#5562cB</color>
+<color name="MenuColor10029">#ff8D61</color>
+<color name="ActionBarColor10030">#71AA9e</color>
+<color name="MenuColor10030">#8874af</color>
+
+<color name="ActionBarColor10031">#9d5b49</color>
+<color name="MenuColor10031">#764437</color>
+
+<color name="ActionBarColor10032">#6e4728</color>
+<color name="MenuColor10032">#355f38</color>
+
+<color name="ActionBarColor10033">#33503e</color>
+<color name="MenuColor10033">#83421f</color>
+
+<color name="ActionBarColor10034">#c97212</color>
+<color name="MenuColor10034">#294814</color>
+
+<color name="ActionBarColor10035">#d074c5</color>
+<color name="MenuColor10035">#9c5794</color>
+
+<color name="ActionBarColor10036">#604c5a</color>
+<color name="MenuColor10036">#483943</color>
+
+<color name="ActionBarColor10037">#777777</color>
+<color name="MenuColor10037">#444444</color>
+
+<color name="ActionBarColor10038">#69614c</color>
+<color name="MenuColor10038">#4f4939</color>
+
+<color name="ActionBarColor10039">#88a7b8</color>
+<color name="MenuColor10039">#5b707b</color>
+
+<color name="ActionBarColor10040">#348491</color>
+<color name="MenuColor10040">#235861</color>
+
+<color name="ActionBarColor10041">#69614c</color>
+<color name="MenuColor10041">#4f4939</color>
+
+<color name="ActionBarColor10042">#88a8b8</color>
+<color name="MenuColor10042">#6c95a9</color>
+
+<color name="ActionBarColor10043">#aa5947</color>
+<color name="MenuColor10043">#2b5056</color>
+
+<color name="ActionBarColor10044">#72946f</color>
+<color name="MenuColor10044">#726f94</color>
+
+<color name="ActionBarColor10045">#0066da</color>
+<color name="MenuColor10045">#004da4</color>
+
+<color name="ActionBarColor10046">#4f6299</color>
+<color name="MenuColor10046">#3b4a73</color>
+
+<color name="ActionBarColor10047">#597619</color>
+<color name="MenuColor10047">#48620f</color>
+
+<color name="ActionBarColor10048">#a44f4f</color>
+<color name="MenuColor10048">#8f3636</color>
+
+<color name="ActionBarColor10049">#999999</color>
+<color name="MenuColor10049">#666666</color>
+
+<color name="ActionBarColor10050">#918282</color>
+<color name="MenuColor10050">#6c6262</color>
+
+<color name="ActionBarColor10051">#819e84</color>
+<color name="MenuColor10051">#617663</color>
+
+<color name="ActionBarColor10052">#c92e25</color>
+<color name="MenuColor10052">#3c9e62</color>
+
+<color name="ActionBarColor10053">#970584</color>
+<color name="MenuColor10053">#710463</color>
+
+<color name="ActionBarColor10054">#777481</color>
+<color name="MenuColor10054">#504e56</color>
+
+<color name="ActionBarColor10055">#9a819d</color>
+<color name="MenuColor10055">#816085</color>
+
+<color name="ActionBarColor10056">#9d5962</color>
+<color name="MenuColor10056">#853e48</color>
+
+<color name="ActionBarColor10057">#6d8c9d</color>
+<color name="MenuColor10057">#495e69</color>
+
+<color name="ActionBarColor10058">#8f7765</color>
+<color name="MenuColor10058">#604f43</color>
+
+<color name="ActionBarColor10059">#c64199</color>
+<color name="MenuColor10059">#953173</color>
+
+<color name="ActionBarColor10060">#4189a7</color>
+<color name="MenuColor10060">#2c5c70</color>
+
+<color name="ActionBarColor10061">#458ba6</color>
+<color name="MenuColor10061">#2e5d6f</color>
+
+<color name="ActionBarColor10062">#962e6c</color>
+<color name="MenuColor10062">#702345</color>
+
+<color name="ActionBarColor10063">#666666</color>
+<color name="MenuColor10063">#333333</color>
+
+<color name="ActionBarColor10064">#87809f</color>
+<color name="MenuColor10064">#85a5b7</color>
+
+<color name="ActionBarColor10065">#818181</color>
+<color name="MenuColor10065">#616161</color>
+
+<color name="ActionBarColor10066">#5b8259</color>
+<color name="MenuColor10066">#444c45</color>
+
+<color name="ActionBarColor10067">#2b6fb4</color>
+<color name="MenuColor10067">#125aa3</color>
+
+<color name="ActionBarColor10068">#b42b6f</color>
+<color name="MenuColor10068">#a3125a</color>
+
+<color name="ActionBarColor10069">#6f6f6f</color>
+<color name="MenuColor10069">#373737</color>
+
+<color name="ActionBarColor10070">#600a0a</color>
+<color name="MenuColor10070">#480707</color>
+
+<color name="ActionBarColor10071">#7d713b</color>
+<color name="MenuColor10071">#534c27</color>
+
+<color name="ActionBarColor10072">#8f1722</color>
+<color name="MenuColor10072">#720711</color>
+
+<color name="ActionBarColor10073">#90b59a</color>
+<color name="MenuColor10073">#607866</color>
+
+<color name="ActionBarColor10074">#226c07</color>
+<color name="MenuColor10074">#522610</color>
+
+<color name="ActionBarColor10075">#a37791</color>
+<color name="MenuColor10075">#7b7979</color>
+
+<color name="ActionBarColor10076">#bc8f5a</color>
+<color name="MenuColor10076">#7e738d</color>
+
+<color name="ActionBarColor10077">#dd6699</color>
+<color name="MenuColor10077">#a64d73</color>
+
+<color name="ActionBarColor10078">#772e79</color>
+<color name="MenuColor10078">#501f51</color>
+
+<color name="ActionBarColor10079">#666666</color>
+<color name="MenuColor10079">#444444</color>
+
+<color name="ActionBarColor10080">#d36e24</color>
+<color name="MenuColor10080">#bd8f10</color>
+
+<color name="ActionBarColor10081">#867979</color>
+<color name="MenuColor10081">#696363</color>
+
+<color name="ActionBarColor10082">#888888</color>
+<color name="MenuColor10082">#666666</color>
+
+<color name="ActionBarColor10083">#777777</color>
+<color name="MenuColor10083">#444444</color>
+
+<color name="ActionBarColor10084">#b86245</color>
+<color name="MenuColor10084">#7e3a23</color>
+
+<color name="ActionBarColor10085">#ab959b</color>
+<color name="MenuColor10085">#726468</color>
+
+<color name="ActionBarColor10086">#b89c7b</color>
+<color name="MenuColor10086">#7d674c</color>
+
+<color name="ActionBarColor10087">#79a4a9</color>
+<color name="MenuColor10087">#39595d</color>
+
+</resources>

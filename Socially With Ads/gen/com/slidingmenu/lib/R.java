@@ -9,21 +9,21 @@ package com.slidingmenu.lib;
 public final class R {
 	public static final class id {
 		public static final int fullscreen = 0x7f060001;
-		public static final int slidingmenulayout = 0x7f0600ef;
-		public static final int slidingmenurowicon = 0x7f0600f0;
-		public static final int slidingmenumain = 0x7f0600ee;
-		public static final int slidingmenurowtitle = 0x7f0600f1;
+		public static final int slidingmenulayout = 0x7f0600ea;
+		public static final int slidingmenurowicon = 0x7f0600eb;
+		public static final int slidingmenumain = 0x7f0600e9;
+		public static final int slidingmenurowtitle = 0x7f0600ec;
 		public static final int margin = 0x7f060000;
 	}
 	public static final class color {
 		public static final int holo_blue_bright = 0x7f070000;
 	}
 	public static final class layout {
-		public static final int slidingmenumain = 0x7f03005d;
-		public static final int list = 0x7f030038;
-		public static final int slidingmenurow = 0x7f03005f;
-		public static final int slidingmenumainlist = 0x7f03005e;
-		public static final int shadow = 0x7f030054;
+		public static final int slidingmenumain = 0x7f03005a;
+		public static final int list = 0x7f030035;
+		public static final int slidingmenurow = 0x7f03005c;
+		public static final int slidingmenumainlist = 0x7f03005b;
+		public static final int shadow = 0x7f030051;
 	}
 	public static final class styleable {
 		public static final int SlidingMenu_behindOffset = 2;
