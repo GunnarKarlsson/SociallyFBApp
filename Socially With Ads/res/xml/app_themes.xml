@@ -1138,5 +1138,12 @@
         displayname="Theme 10087"
         icon="theme_10087_background"
         menucolor="MenuColor10087" />
+        <apptheme
+        name="green_leopard"
+        actionbarcolor="ActionBarColorGreenLeopard"
+        background="theme_green_leopard_background"
+        displayname="Green Leopard"
+        icon="theme_green_leopard_background"
+        menucolor="MenuColorGreenLeopard" />
 
 </appthemes>

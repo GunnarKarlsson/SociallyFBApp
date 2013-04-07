@@ -246,4 +246,8 @@
 <color name="ActionBarColor10087">#79a4a9</color>
 <color name="MenuColor10087">#39595d</color>
 
+
+<color name="ActionBarColorGreenLeopard">#22b257</color>
+<color name="MenuColorGreenLeopard">#11592c</color>
+
 </resources>
