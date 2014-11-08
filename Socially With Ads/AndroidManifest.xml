@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.bluebitapps.fbclient"
-    android:versionCode="46"
-    android:versionName="1.00046" >
+    android:versionCode="50"
+    android:versionName="1.00050" >
 
     <uses-sdk
         android:minSdkVersion="14"
@@ -29,7 +29,7 @@
         android:label="@string/app_name"
         android:logo="@drawable/actionbar_icon_three_stripes"
         android:theme="@style/ThemeHoloWithActionBarShadow" >
-         <receiver
+        <receiver
             android:name="com.bluebitapps.fbclientbase.broadcastreceivers.NetworkBroadcastReceiver"
             android:enabled="true"
             android:exported="false"
@@ -39,10 +39,14 @@
             </intent-filter>
         </receiver>
 
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
         <activity
-            android:name="com.google.ads.AdActivity"
-            android:configChanges="orientation|keyboard|keyboardHidden|screenLayout|uiMode|screenSize|smallestScreenSize" >
-        </activity>
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+      
         <activity
             android:name="com.bluebitapps.fbclientbase.LaunchActivity"
             android:label="@string/app_name"
@@ -54,7 +58,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.bluebitapps.fbclientbase.theme.ColorPickerActivity"/>
+        <activity android:name="com.bluebitapps.fbclientbase.theme.ColorPickerActivity" />
         <activity android:name="com.bluebitapps.fbclientbase.account.AccountActivity" />
         <activity
             android:name="com.bluebitapps.fbclientbase.MainActivity"
@@ -117,7 +121,7 @@
         <activity
             android:name="com.bluebitapps.fbclientbase.statusupdate.PostStatusUpdateActivity"
             android:noHistory="true"
-            android:windowSoftInputMode="stateHidden"/>
+            android:windowSoftInputMode="stateHidden" />
         <activity
             android:name="com.bluebitapps.fbclientbase.settings.TextSettingsActivity"
             android:excludeFromRecents="true"
