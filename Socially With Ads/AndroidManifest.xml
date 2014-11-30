@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.bluebitapps.fbclient"
-    android:versionCode="50"
-    android:versionName="1.00050" >
+    android:versionCode="53"
+    android:versionName="1.00053" >
 
     <uses-sdk
         android:minSdkVersion="14"
@@ -20,6 +20,9 @@
     <uses-permission android:name="android.permission.GET_TASKS" />
     <uses-permission android:name="android.permission.SET_WALLPAPER" />
 
+    <!-- for in-app purchases -->
+    <uses-permission android:name="com.android.vending.BILLING" />
+    
     <uses-feature android:name="android.hardware.camera" />
 
     <application
