@@ -20,7 +20,7 @@ This app:
 - Depends on `socially_base_lib` as an Android library (`android.library.reference.2=../socially_base_lib`)
 - Sets `isPremiumVersion` to **false**, which shows AdMob banners and a “Remove ads” item that opens the paid listing (`com.bluebitapps.sociallypremium`)
 - Declares Google Play Ads (`com.google.android.gms.ads.AdActivity`) and in-app billing
-- Provides the Facebook app id and about 160 built-in skins
+- Provides the Facebook app id and **all 80+ themes** for the free version
 - Has **no Java sources of its own** — `FBClientApplication`, `LaunchActivity`, and the rest come from the library
 
 A paid counterpart existed as a separate application project with `isPremiumVersion` true (no banners). Socially Pink was another store variant (`com.bluebitapps.sociallypinkpremium` for its paid listing).
@@ -36,7 +36,9 @@ A paid counterpart existed as a separate application project with `isPremiumVers
 
 ### Skins and themes
 
-Themes are declared in `res/xml/app_themes.xml` and applied by the library’s `ThemeFactory`. This app ships the drawable backgrounds, preview icons, and action-bar / menu colors for the store build (named skins such as Blue, Pink, Purple Rain, Black Leather, plus numbered theme packs).
+This project includes **all 80+ themes** for the free version. They are declared in `res/xml/app_themes.xml` and applied by the library’s `ThemeFactory`. The app ships the drawable backgrounds, preview icons, and action-bar / menu colors (named skins such as Blue, Pink, Purple Rain, Black Leather, plus numbered theme packs).
+
+The themes are copyright Gunnar Karlsson and are not covered by the MIT License.
 
 ### Fonts
 
@@ -62,4 +64,6 @@ External Eclipse library references (not all in this repo): `socially_base_lib`,
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+Source code is licensed under the MIT License. See [LICENSE](LICENSE).
+
+The themes (including artwork in `res/drawable*` and the catalog in `res/xml/app_themes.xml`) are copyright Gunnar Karlsson and are not covered by the MIT License.
