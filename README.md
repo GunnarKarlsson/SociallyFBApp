@@ -20,7 +20,7 @@ This app:
 - Depends on `socially_base_lib` as an Android library (`android.library.reference.2=../socially_base_lib`)
 - Sets `isPremiumVersion` to **false**, which shows AdMob banners and a “Remove ads” item that opens the paid listing (`com.bluebitapps.sociallypremium`)
 - Declares Google Play Ads (`com.google.android.gms.ads.AdActivity`) and in-app billing
-- Provides the Facebook app id and **all 80+ themes** for the free version
+- Provides **all 80+ themes** for the free version
 - Has **no Java sources of its own** — `FBClientApplication`, `LaunchActivity`, and the rest come from the library
 
 A paid counterpart existed as a separate application project with `isPremiumVersion` true (no banners). Socially Pink was another store variant (`com.bluebitapps.sociallypinkpremium` for its paid listing).
@@ -29,7 +29,7 @@ A paid counterpart existed as a separate application project with `isPremiumVers
 
 ### Ads and billing
 
-- `res/values/config_version.xml` — Facebook app id `395995423749684` and `isPremiumVersion=false`
+- `res/values/config_version.xml` — `isPremiumVersion=false` (Facebook app id and AdMob unit ids are not included)
 - AdMob banners on library screens that include an `AdView` (loaded from `BaseFragment` when the premium flag is off)
 - `BILLING` permission for Google Play in-app billing
 - Settings / sliding-menu “Remove ads” deep-link to the paid Socially package
@@ -53,7 +53,7 @@ Bundled typefaces in `assets/fonts/`: Arial, Roboto, Verdana, Garamond, Gill, BM
 ```
 AndroidManifest.xml     Application id, ads activity, billing, library activities/services
 res/xml/app_themes.xml  Skin catalog
-res/values/             App id, premium flag, theme colors
+res/values/             Premium flag, theme colors
 res/drawable*/          Theme backgrounds and icons
 res/xml/preferences.xml Settings overlay
 assets/fonts/           Bundled typefaces
